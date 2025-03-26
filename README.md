@@ -16,4 +16,4 @@
     7. 在 ESM 项目中使用内部的 CJS 模块
     8. 在 ESM 项目中使用外部 npm 库的 CJS 模块
 
-## 具体分析过程见博客：(从多场景分析 ESM 和 CJS 混合开发)[https://blog.1874.cool/esm-commonjs]
+### 具体分析过程见博客：[从多场景分析 ESM 和 CJS 混合开发](https://blog.1874.cool/esm-commonjs)
