@@ -8,5 +8,3 @@ cjsFn()
 console.log(cjsVar)
 const cjsClass = new CjsClass()
 cjsClass.cjsClassFn()
-
-

@@ -1,4 +1,4 @@
-
+// const esmModule = await import('./esm_mjs.mjs'); // ❌ 报错，CJS 模块不允许顶层 await
 
 
 async function test() {
