@@ -1,0 +1,16 @@
+{
+  "name": "in_cjs_use_esm_inner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "use_esm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}

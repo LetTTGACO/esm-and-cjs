@@ -1,0 +1,7 @@
+const esm = require("esm")(module)
+const { default: esmFnDefault, esmFn, EsmClass, esmVar } = esm("./esm_mjs")
+esmFnDefault()
+esmFn()
+console.log(esmVar)
+const esmClass = new EsmClass()
+esmClass.esmClassFn()

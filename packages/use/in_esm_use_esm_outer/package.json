@@ -1,0 +1,18 @@
+{
+  "name": "use_esm_with_esm_outer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test_esm_module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "esm_module": "workspace:*",
+    "cjs_with_esm": "workspace:*",
+    "esm_with_cjs": "workspace:*"
+  }
+}
