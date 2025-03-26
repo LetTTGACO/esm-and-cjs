@@ -1,7 +1,7 @@
 {
   "name": "esm-with-cjs",
   "version": "1.0.0",
-  "description": "从多视角分析 ESM 和 CJS 混合开发",
+  "description": "从多场景分析 ESM 和 CJS 混合开发",
   "main": "index.js",
   "keywords": [],
   "author": "",

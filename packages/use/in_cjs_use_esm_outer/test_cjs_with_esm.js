@@ -1,7 +1,7 @@
 // test cjs_with_esm
 (async () => {
-  const esmModule = import('cjs_with_esm').then(esm => esm);
-  const { default: esmFnDefault, esmFn, EsmClass, esmVar } = await esmModule
+  const esmModule = await import('cjs_with_esm')
+  const { default: esmFnDefault, esmFn, EsmClass, esmVar } = esmModule
   // const esmFnDefault = await esmModule
   esmFnDefault()
   esmFn()
